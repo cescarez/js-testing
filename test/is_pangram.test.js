@@ -10,7 +10,7 @@ describe('isPangram()', () => {
     const text = 'the quick brown fox jumps over the lazy dog';
 
     // Act
-    result = isPangram(text);
+    const result = isPangram(text);
 
     // Assert
     expect(result).toEqual(true);
